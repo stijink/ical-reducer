@@ -1,2 +1,2 @@
-# ical-futureevents
-Reduces an ical file to only contain future events
+# ical-reducer
+A CLI tool that helps you reduce an ical calendar to only have future events
