@@ -1,0 +1,9 @@
+{
+    "require": {
+        "symfony/console": "^3.2",
+        "johngrogg/ics-parser": "^2.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.2"
+    }
+}
