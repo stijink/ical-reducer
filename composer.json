@@ -1,4 +1,20 @@
 {
+    "name": "stijink/ical-reducer",
+    "description": "A CLI tool that helps you reduce an ical calendar to only have future events",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Stephan Tijink",
+            "email": "stijink@googlemail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ICalReducer\\": "src/"
+        }
+    },
     "require": {
         "symfony/console": "^3.2",
         "johngrogg/ics-parser": "^2.0"
