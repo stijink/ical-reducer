@@ -2,7 +2,7 @@
 
 namespace ICalReducer;
 
-use ICal\EventObject;
+use ICal\Event;
 use ICal\ICal;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -53,7 +53,7 @@ METHOD:PUBLISH";
         file_put_contents($destination, "\nEND:VCALENDAR", FILE_APPEND);
     }
 
-    private function formatEvent(EventObject $event) : string
+    private function formatEvent(Event $event) : string
     {
         $data = array(
             'SUMMARY'       => $event->summary,
